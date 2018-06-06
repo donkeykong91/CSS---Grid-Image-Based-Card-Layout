@@ -227,6 +227,12 @@ CSS Grid layout for wider screens, when browser supports grid:
 		.caption {
 			display: flex;
 			align-items: flex-end;
+			opacity: 0;
+		}
+
+		a:focus .caption,
+		a:hover .caption {
+			opacity: 1;
 		}
 	}
 
