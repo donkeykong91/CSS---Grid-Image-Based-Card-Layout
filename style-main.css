@@ -223,6 +223,11 @@ CSS Grid layout for wider screens, when browser supports grid:
 			grid-column: 1;
 			grid-row: 1;
 		}
+
+		.caption {
+			display: flex;
+			align-items: flex-end;
+		}
 	}
 
 	@media screen and (min-width: 60em) {
